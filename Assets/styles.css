@@ -1,0 +1,18 @@
+.testimonials{
+    border: 2 px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.testimonials span{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.testimonials img{
+    float: left;
+    margin-left: 20px;
+    border-radius: 50%;
+}
