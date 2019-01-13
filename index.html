@@ -16,7 +16,7 @@
 <body>
     <!--Navigation Bar-->
     <header>
-        <nav class="nav-wrapper green">
+        <nav class="nav-wrapper ">
             <div class="container">
                 <a href="" class="logo">Hidden Ramp</a>
                 <a href="" class="sidenav-trigger" data-taget="mobile-menu">
@@ -24,9 +24,10 @@
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#intro">About Us</a></li>
-                    <li><a href="">Events</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#guest">Guest Speakers</a></li>
                     <li><a href="#testi">Testimonials</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     
                     <li><a href="">Connect</a></li>
                     <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instragram">
@@ -41,18 +42,124 @@
                 </ul>
                 <ul class="sidenav green lighten-2" id="mobile-meu">
                         <li><a href="#intro">About Us</a></li>
-                        <li><a href="">Events</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#guest">Guest Speakers</a></li>
                         <li><a href="#testi">Testimonials</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+    
     </header>
-
 <!--Introduction-->
+<section class="section scrollspy" id="about">
+
+    <h2 class="#3A3A3C-text text-darken-4 left-align">About Us</h2>
+    
+    
+    </section>
+
+<!-- <p>hello world</p> -->
+
 <!--Events-->
+<h2 class="#3A3A3C-text text-darken-4">Our Events</h2>
+    <!--Online-->
+    <h4 class="#3A3A3C-text text-darken-4 center-align">Online Events</h2>
+    <div class="scrollspy" id="events">
+            
+  <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+        <a onclick="M.toast({html: 'You have been successfully registered for the event!'})" class="btn">Register</a>
+          <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+          <h2>Event 1</h2>
+          <p class="white-text">Add content about the event</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Event 2</h2>
+          <p class="white-text">Add content about the event</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Event 3</h2>
+          <p class="white-text">Add content about the event</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Event 4</h2>
+          <p class="white-text">Add content about the event</p>
+        </div>
+      </div>
+      <!-- <a onclick="M.toast({html: 'You have been successfully registered for the event!'})" class="btn">Register</a> -->
+    <!--Offline-->
+    <h4 class="#3A3A3C-text text-darken-4 center-align">Offline Events</h2>
+        <div class="carousel carousel-slider container">
+                <a class="carousel-item" href="#one!">
+                    <img src="img/event_offline1.jpeg">
+                    <a onclick="M.toast({html: 'You have been successfully registered for the event!'})" class="btn">Register</a>    
+                </a>
+                <a class="carousel-item" href="#two!"><img src="img/event_offline2.png"></a>
+                <a class="carousel-item" href="#three!"><img src="img/event_offline3.png"></a>
+                <a class="carousel-item" href="#four!"><img src="img/event_offline4.png"></a>
+                <a class="carousel-item" href="#four!"><img src="img/event_offline5.png"></a>
+              </div>
+                    
+    <!--Upcoming-->
+    <!-- <h4 class="#3A3A3C-text text-darken-4 center-align">Upcoming Events</h2> -->
+    <!--Past-->
+    <h4 class="#3A3A3C-text text-darken-4 left-align">Past Events</h2>
+    <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/event_past1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/event_past_2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/event_past_3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+          </div>
+        </div>
+              
+    <h4 class="#3A3A3C-text text-darken-4 right-align">Future Events</h2>
+    <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/event_future_1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/event_future_2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/event_future_3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+          </div>
+        </div>
+              
+ <!-- <div class="container" id="intro">
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a href="#online">Online</a></li>
+                <li class="tab col s3"><a href="#offline">Offline</a></li>
+                <li class="tab col s3"><a href="#upcoming">Upcoming</a></li>
+                <li class="tab col s3"><a href="#past">Past</a></li>
+            </ul>
+            <div id="online" class="col s12">Test 1</div>
+            <div id="offline" class="col s12">Test 2</div>
+            <div id="upcoming" class="col s12">Test 3</div>
+            <div id="past" class="col s12">Test 4</div>
+        </div>
+    </div>
+
+</div>      -->
+
+<!--Guest Speakers-->
+<h2 class="#3A3A3C-text text-darken-4">Guest Speakers</h2>
+<div class="card left-align scrollspy" id="guest">
+    
+    <img src="img/speaker2.jpeg" alt="" style="width:210px;">
+    <h5>Rakshit Tandon</h5>
+    <p class="title">Director Executive Council - Council of Information Security.</p>
+    <div style="margin:24px 0;">
+    <p>A meritorious student of St. Peter’s college Agra who became an Ethical Hacker, Certified by the EC Council and
+            a Microsoft Certified Professional by Microsoft.</p>
+    </div>
+</div>
 <!--Testimonials-->
-<div class="container" id="testi">
+<h2 class="#3A3A3C-text text-darken-4 ">Hiddenramper's Experience</h2>
+<div class="container scrollspy" id="testi">
+
 <div class="testimonials">
     <img src="img/testi3.png" alt="" style="width:90px">
     <p><span>Name.</span>Designation</p>
@@ -85,7 +192,7 @@
 </div>
 </div>
  <!--Footer-->   
-    <footer class="page-footer green darken-3 scrollspy" id="connect">
+    <footer class="page-footer #EE6E73 darken-3 scrollspy" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col s12 l6">
@@ -106,7 +213,7 @@
         </div>
     </div>
   </div>
-  <div class="footer-copyright green darken-4">
+  <div class="footer-copyright #EE6E73 darken-4">
       <div class="container center-align">
           &copy; 2018
           This website was designed and developed by 
@@ -118,11 +225,25 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script>
+    //  var instance = M.Tabs.getInstance(elem);
+    //  instance.select('online');
+    //  instance.select('offline');
+    //  instance.select('upcoming');
+    //  instance.select('past');
     $(document).ready(function(){
         $('.sidenav').sidenav();
         $('.materialboxed').materialbox();
         $('.scrollspy').scrollSpy();
         $('.tooltipped').tooltip();
+        $('.carousel').carousel();
+        $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+        
     });
 </script>
 </body>

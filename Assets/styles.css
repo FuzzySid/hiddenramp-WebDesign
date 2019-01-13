@@ -16,3 +16,28 @@
     margin-left: 20px;
     border-radius: 50%;
 }
+
+body{
+    background: #ff9e80;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgba(0,0,0,2);
+    max-width: 210px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title{
+    color: grey;
+    font-size: 18px;
+}
+
+section{
+    background: url(/img/hiddenramp-banner.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    
+}
